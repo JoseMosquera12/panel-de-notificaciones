@@ -99,7 +99,7 @@ div.container {
     position: relative;
 }
 
-.message--active .content-message p:first-child:after {
+.message[data-isRead="false"] .content-message p:first-child:after {
     content: '';
     display: inline-block;
     background-color: var(--Red);
@@ -135,8 +135,8 @@ div.container {
     width: 3.5rem;
 }
 
-.message--active {
-    background-color: var(--Light-grayish-blue-2);
+.container-messages .message[data-isRead="false"] {
+    background-color: var(--Light-grayish-blue-1);
 }
 
 .content-message__view {
