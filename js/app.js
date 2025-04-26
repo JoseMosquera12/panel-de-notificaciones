@@ -45,3 +45,43 @@ readed.addEventListener('click', () => {
     iterator = 0
     counter.textContent = iterator;
 });
+
+
+// messages.forEach(element => {
+//   element.addEventListener("click", () => {
+//     element.dataset.isRead = "true";
+//   })
+
+//   changeStatus(element)
+// })
+// console.log(messages.dataset.isRead)
+// function changeStatus(element) {
+//   console.log(element.dataset.isRead)
+//   if (element.dataset.isRead == false) {
+//     console.log("I am not read");
+//   }
+// }
+
+// function toRead(element) {
+    
+// }
+// function countMessages() {
+    
+// }
+// function ToRead() {
+//     let iterador = 3;
+
+//     countMessages.forEach(element => {
+//         if (element.classList.contains('message--active')) {
+//     element.addEventListener("click", () => {
+//                 element.classList.remove('message--active');
+//                 --iterador;
+//                 counter.innerHTML = iterador;
+//             }, {once: true});
+//         } else {
+//             console.log('Ha ocurrido un error');
+//             }
+// });
+// }
+
+// ToRead();
